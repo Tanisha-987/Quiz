@@ -1,0 +1,162 @@
+@font-face {
+    font-family:tt;
+    src: url(ITCEDSCR.TTF);
+}
+
+.body
+{
+    background-image:url(quiz.png) ;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100%;
+}
+
+.welcome
+{
+    height: 100px;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: tt;
+    position: absolute;
+    top: 160px;
+    left: 460px;
+    font-weight: bold;
+    text-shadow:6px 6px 7px magenta;
+
+}
+
+.start
+{
+    height: 120px;
+    width: 600px;
+    border: 10px double aquamarine;
+    box-shadow: 4px 4px 7px aquamarine;
+    text-shadow:6px 6px 7px magenta;
+    position: absolute;
+    top: 500px;
+    left: 550px;
+    font-size: 60px;
+    font-family: cursive;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: transparent;
+    color: white;
+}
+
+.label
+{
+    color:white;
+    position: absolute;
+    top: 300px;
+    left: 360px;
+    font-size: 35px;
+    width: 1000px;
+    height: 65px;
+    padding-top: 15px;
+    padding-left: 20px;
+    text-shadow:6px 6px 7px magenta;
+    border-radius: 50px;
+    border: 10px double aquamarine;
+    box-shadow: 4px 4px 7px aquamarine;
+}
+
+.option
+{
+    color: white;
+    text-shadow:6px 6px 7px magenta;
+    border: 10px double aquamarine;
+    box-shadow: 4px 4px 7px aquamarine;
+    font-size: 30px;
+    width: 300px;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius:50px ;
+}
+#option1
+{
+    position: absolute;
+    top: 450px;
+    left: 500px;    
+}
+#option2
+{
+    position: absolute;
+    top: 450px;
+    left: 900px; 
+}
+#option3
+{
+    position: absolute;
+    top: 570px;
+    left: 500px; 
+}
+#option4
+{
+    position: absolute;
+    top: 570px;
+    left: 900px; 
+}
+
+input[type="radio"]
+{
+    height: 30px;
+    width: 30px;
+    appearance: none;
+    border: 10px double white;
+    border-radius:50% ;
+}
+
+
+.next
+{
+    position: absolute;
+    top: 600px;
+    right: 130px;
+    width: 120px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 50px;
+    background-color: deeppink;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    border: 10px double white;
+}
+
+
+.result
+{
+    position: absolute;
+    top: 600px;
+    right: 130px;
+    width: 120px;
+    color: white;
+    border-radius: 50px;
+    background-color: greenyellow;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    border: 10px double white;
+}
+
+.d2
+{
+    width: 600px;
+    height: 170px;
+    position: absolute;
+    top: 350px;
+    left: 500px;
+    font-size: 70px;
+    font-family: tt;
+    text-shadow:6px 6px 7px magenta;
+    border: 10px double aquamarine;
+    box-shadow: 4px 4px 7px rgb(76, 248, 108);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+
+}
